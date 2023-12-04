@@ -20110,5 +20110,38 @@ body {
     width: 50%;
   }
 }
+.menu-icon, .topBtn {
+  font-size: 4rem;
+}
+
+.safe-padding {
+  padding: 4.5rem;
+}
+
+@media (min-width: 992px) {
+  .menu-icon, .topBtn {
+    font-size: 3rem;
+  }
+  .safe-padding {
+    padding: 3.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  .menu-icon, .topBtn {
+    font-size: 2rem;
+  }
+  .safe-padding {
+    padding: 2.5rem;
+  }
+}
+.topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 0px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background: transparent;
+  border: unset;
+}
 
 /*# sourceMappingURL=all.css.map */
