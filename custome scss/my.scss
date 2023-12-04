@@ -5,3 +5,11 @@ body {
 .light-nav {
   color: white;
 }
+.side-text {
+  width: 75%;
+}
+@include media-breakpoint-up(lg) {
+  .side-text {
+    width: 50%;
+  }
+}

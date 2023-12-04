@@ -20101,4 +20101,14 @@ body {
   color: white;
 }
 
+.side-text {
+  width: 75%;
+}
+
+@media (min-width: 992px) {
+  .side-text {
+    width: 50%;
+  }
+}
+
 /*# sourceMappingURL=all.css.map */
