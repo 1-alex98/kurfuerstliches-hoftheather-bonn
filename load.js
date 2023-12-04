@@ -36,4 +36,4 @@ window.onload = async function () {
 }
 
 
-//window.onscroll = changeColor
+window.onscroll = changeColor
