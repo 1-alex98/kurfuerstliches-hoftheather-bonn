@@ -20102,12 +20102,12 @@ body {
 }
 
 .side-text {
-  width: 75%;
+  width: 100%;
 }
 
 @media (min-width: 992px) {
   .side-text {
-    width: 50%;
+    width: 80%;
   }
 }
 .menu-icon, .topBtn {

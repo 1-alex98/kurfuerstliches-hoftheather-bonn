@@ -6,11 +6,11 @@ body {
   color: white;
 }
 .side-text {
-  width: 75%;
+  width: 100%;
 }
 @include media-breakpoint-up(lg) {
   .side-text {
-    width: 50%;
+    width: 80%;
   }
 }
 
