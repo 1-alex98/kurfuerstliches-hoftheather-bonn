@@ -20128,4 +20128,8 @@ body {
   border: unset;
 }
 
+.link-hover-underline:hover {
+  text-decoration: underline !important;
+}
+
 /*# sourceMappingURL=all.css.map */
