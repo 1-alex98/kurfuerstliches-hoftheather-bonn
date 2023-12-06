@@ -20111,29 +20111,13 @@ body {
   }
 }
 .menu-icon, .topBtn {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .safe-padding {
-  padding: 4.5rem;
+  padding: 2.5rem;
 }
 
-@media (min-width: 992px) {
-  .menu-icon, .topBtn {
-    font-size: 3rem;
-  }
-  .safe-padding {
-    padding: 3.5rem;
-  }
-}
-@media (min-width: 1200px) {
-  .menu-icon, .topBtn {
-    font-size: 2rem;
-  }
-  .safe-padding {
-    padding: 2.5rem;
-  }
-}
 .topBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */

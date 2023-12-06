@@ -15,27 +15,12 @@ body {
 }
 
 .menu-icon, .topBtn {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .safe-padding {
-  padding: 4.5rem;
+  padding: 2.5rem;
 }
-@include media-breakpoint-up(lg) {
-  .menu-icon, .topBtn{
-    font-size: 3rem;
-  }
-  .safe-padding {
-    padding: 3.5rem;
-  }
-}
-@include media-breakpoint-up(xl) {
-  .menu-icon, .topBtn {
-    font-size: 2rem;
-  }
-  .safe-padding {
-    padding: 2.5rem;
-  }
-}
+
 
 .topBtn {
   display: none; /* Hidden by default */
