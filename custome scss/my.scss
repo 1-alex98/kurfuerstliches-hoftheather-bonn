@@ -5,14 +5,6 @@ body {
 .light-nav {
   color: white;
 }
-.side-text {
-  width: 100%;
-}
-@include media-breakpoint-up(lg) {
-  .side-text {
-    width: 80%;
-  }
-}
 
 .menu-icon, .topBtn {
   font-size: 2rem;
@@ -37,4 +29,9 @@ body {
 
 .link-hover-underline:hover {
   text-decoration: underline!important;
+}
+
+
+.text-light {
+  color: #c8c8c8 !important;
 }
