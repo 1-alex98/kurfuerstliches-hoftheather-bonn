@@ -1,10 +1,10 @@
 {
-  "name": "kurf-rstliches-hoftheather-bonn",
+  "name": "kurf-rstliches-hoftheater-bonn",
   "version": "1.0.0",
   "description": "js dependencies of website",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/1-alex98/kurf-rstliches-hoftheather-bonn.git"
+    "url": "git+https://github.com/1-alex98/kurf-rstliches-hoftheater-bonn.git"
   },
   "dependencies": {
     "bootstrap": "^5.3.2",
