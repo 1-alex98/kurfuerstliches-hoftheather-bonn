@@ -21,7 +21,9 @@ function setColourBasedOnBack(element) {
     // Set nav style class based on the condition
     if (isLightNavigation) {
         element.classList.add("light-nav");
+        element.classList.remove("dark-nav");
     } else {
+        element.classList.add("dark-nav");
         element.classList.remove("light-nav");
     }
 }
@@ -33,7 +35,7 @@ function changeColor() {
         mybutton = document.getElementById("topBtn");
     }
     if(!nav) {
-        nav = document.getElementById("fixed-nav");
+        nav = document.getElementById("topMenu");
     }
 
     // Get the element behind the nav

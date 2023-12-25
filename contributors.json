@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Christina",
+    "role": "Aszi",
+    "age": "23",
+    "study": "Politikwissenschaften",
+    "tasks": "Vorstand, Regie, Schauspiel, Author",
+    "sentence": "Hier ein wahrscheinlich etwas längere Satz von Aszi, den Christina gut findet.",
+    "image": "/images/Bilder Schauspieler/P2820509.png"
+  },
+  {
+    "name": "Hannah",
+    "role": "Eru",
+    "age": "23",
+    "study": "Germanistik",
+    "tasks": "Vorstand, Regie, Schauspiel",
+    "sentence": "Hier ein wahrscheinlich etwas längere Satz von Eru, den Hannah gut findet.",
+    "image": "/images/Bilder Schauspieler/P2820617.png"
+  }
+]
