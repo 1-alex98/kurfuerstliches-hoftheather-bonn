@@ -2,19 +2,46 @@
   {
     "name": "Christina",
     "role": "ASzi",
-    "age": "23",
-    "study": "Politikwissenschaften",
-    "tasks": "Vorstand, Regie, Schauspiel, Autor",
-    "sentence": "Hier ein wahrscheinlich etwas längere Satz von ASzi, den Christina gut findet.",
-    "image": "/images/Bilder Schauspieler/P2820509.png"
+    "age": "24",
+    "study": "Politik und Soziologie",
+    "tasks": "Regie, Schauspiel",
+    "sentence": "Die Liebe ist mein einziger Kompass den ich nicht umpolen kann.",
+    "image": "/images/Bilder Schauspieler/christina.png"
   },
   {
-    "name": "Hannah",
-    "role": "ERu",
+    "name": "Marlon",
+    "role": "Mentor",
     "age": "23",
-    "study": "Germanistik",
-    "tasks": "Vorstand, Regie, Schauspiel",
-    "sentence": "Hier ein wahrscheinlich etwas längere Satz von ERu, den Hannah gut findet.",
-    "image": "/images/Bilder Schauspieler/P2820617.png"
+    "study": "Poliorketik (MA)",
+    "tasks": "Schauspiel, Regie, Vorstand",
+    "sentence": "Die Tyrannen unterwarfen die Welt entgegen ihres Willens, raubten ihre Schätze und vergifteten ihre Luft.",
+    "image": "/images/Bilder Schauspieler/marlon.png"
+  },
+  {
+    "name": "Felix",
+    "role": "AMer",
+    "age": "25",
+    "study": "Biologie/Biologielaborant",
+    "tasks": "Autor, Regie, Vorstand, Musik, Schauspiel",
+    "sentence": "Aber, AMer und AMoll, das ergibt doch Amor!",
+    "image": "/images/Bilder Schauspieler/felix.png"
+  },
+  {
+    "name": "Louis",
+    "role": "AFra",
+    "age": "25",
+    "study": "Informatik",
+    "tasks": "Schauspiel",
+    "sentence": "Weil es die Wahrheit ist und weil sie nie jemand ausspricht.",
+    "image": "/images/Bilder Schauspieler/louis.png"
+  },
+  {
+    "name": "Alexander",
+    "role": "Nichte, AStraal",
+    "age": "25",
+    "study": "Computer Science/Software Developer",
+    "tasks": "Schauspiel, Webseite",
+    "sentence": "Ich weiß nicht mehr weiter.",
+    "image": "/images/Bilder Schauspieler/alex.png"
   }
 ]
