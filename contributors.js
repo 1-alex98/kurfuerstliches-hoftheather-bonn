@@ -17,6 +17,7 @@ async function go () {
         for (let variable in actor) {
             localTemplate = localTemplate.replaceAll(`\${${variable}}`, actor[variable])
         }
+        localTemplate = localTemplate.replaceAll(/[$][{].*[}]/gi, "")
         return localTemplate
     }
 
