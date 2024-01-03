@@ -1,6 +1,6 @@
 <div class="card m-2 text-bg-primary p-2 card-contributor mb-5 d-flex flex-column wow bounceInUp">
   <div class="">
-    <img src="${image}" class="card-img-top bg-white" alt="bild von ${name}">
+    <img src="${image}" style="aspect-ratio: 9/16;object-fit: cover;" class="card-img-top bg-white" alt="bild von ${name}">
     <h2 class="image-text text-secondary">${name}</h2>
   </div>
   <div class="card-body" style="font-size: 1rem">
@@ -11,7 +11,7 @@
       </div>
       <div class="d-flex flex-row justify-content-between">
         <p class="flex-grow-1 pe-2 ${age-missing}" style="white-space: nowrap;"><i class="bi bi-cake2-fill"></i> ${age}</p>
-        <p ><i class="bi bi-mortarboard-fill ${study-missing}"></i> ${study}</p>
+        <p class="${study-missing}"><i class="bi bi-mortarboard-fill"></i> ${study}</p>
       </div>
       <p class="${sentence-missing}"><i class="bi bi-chat-left-quote-fill"></i> ${sentence}</p>
       ${extra}

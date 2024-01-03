@@ -43,5 +43,38 @@
     "tasks": "Schauspiel, Webseite",
     "sentence": "Ich weiß nicht mehr weiter.",
     "image": "/images/Bilder Schauspieler/alex.png"
+  },
+  {
+    "name": "Johannes",
+    "role": "ANanZi",
+    "study": "Latein/Geschichte Lehramt",
+    "tasks": "Schauspiel",
+    "sentence": "Du bist wahnsinnig.",
+    "image": "/images/Bilder Schauspieler/johannes.png"
+  },
+  {
+    "name": "Alexandra",
+    "role": "Nichte",
+    "study": " Politik und Medienwissenschaft",
+    "tasks": "Schauspiel",
+    "sentence": "Stehen geblieben!",
+    "image": "/images/Bilder Schauspieler/alexandra.png"
+  },
+  {
+    "name": "Roman",
+    "age": "24",
+    "role": "ATiis",
+    "study": " Politik und Medienwissenschaft",
+    "tasks": "Schauspiel, Vorstand (Finanzen)",
+    "sentence": "Es war keine Absicht!",
+    "image": "/images/Bilder Schauspieler/roman.png"
+  },
+  {
+    "name": "Candice",
+    "role": "Große Schwester ",
+    "study": "UX Design",
+    "tasks": "Schauspiel, Website",
+    "sentence": "Jeden Tag. Jeden Monat. Jedes Jahr, das wir erleben dürfen verdanken wir dem Gesetz unserer Gemeinschaft.",
+    "image": "/images/Bilder Schauspieler/candice.png"
   }
 ]
