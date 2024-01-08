@@ -20168,4 +20168,32 @@ body {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
 }
 
+.group-img {
+  width: 100%;
+  aspect-ratio: 1.3333;
+  max-width: 1080px;
+  overflow: hidden;
+  position: relative;
+}
+.group-img img {
+  position: absolute;
+  left: -10%;
+  top: -10%;
+  width: 110%;
+  animation: example 50s linear infinite;
+}
+
+@keyframes example {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(10%, 10%);
+  }
+}
+.c-img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
 /*# sourceMappingURL=all.css.map */

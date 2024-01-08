@@ -17,8 +17,11 @@ async function go () {
         for (let variable in actor) {
             if(actor[variable] ==="") {
                 localTemplate = localTemplate.replaceAll(`\${${variable}-missing}`, "d-none")
+                localTemplate = localTemplate.replaceAll(`\${${variable}}`, "")
+            }else {
+                localTemplate = localTemplate.replaceAll(`\${${variable}-missing}`, "")
+                localTemplate = localTemplate.replaceAll(`\${${variable}}`, actor[variable])
             }
-            localTemplate = localTemplate.replaceAll(`\${${variable}}`, actor[variable])
         }
         localTemplate = localTemplate.replaceAll(/[$][{].*[}]/gi, "")
         return localTemplate
