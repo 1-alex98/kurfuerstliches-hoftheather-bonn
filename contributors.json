@@ -9,6 +9,15 @@
     "image": "/images/Bilder Schauspieler/christina.png"
   },
   {
+    "name": "Hannah",
+    "age": "24",
+    "role": "ERu",
+    "study": "Deutsch-italienische Studien",
+    "tasks": "Schauspiel, Regie, Vorstand, Instagram",
+    "sentence": "Sie muss Ihre Heimat retten, so sehr ich meinen Weg gehen muss. Hin zur Sonne. Zum Licht. Zur Wahrheit. Das verstehe ich jetzt.",
+    "image": "/images/Bilder Schauspieler/hannah.png"
+  },
+  {
     "name": "Roberto Bollen<i class=\"bi bi-music-note-beamed\"></i>",
     "age": "24",
     "study": "Pfleger",
@@ -31,7 +40,7 @@
     "name": "Felix <i class=\"bi bi-feather\"></i>",
     "role": "AMer",
     "age": "25",
-    "study": "Biologie/Biologielaborant",
+    "study": "Biologie / Biologielaborant",
     "tasks": "Autor, Regie, Vorstand, Musik, Schauspiel",
     "sentence": "Aber, AMer und AMoll, das ergibt doch Amor!",
     "image": "/images/Bilder Schauspieler/felix.png"
@@ -86,6 +95,15 @@
     "tasks": "Schauspiel, Website",
     "sentence": "Jeden Tag. Jeden Monat. Jedes Jahr, das wir erleben dürfen verdanken wir dem Gesetz unserer Gemeinschaft.",
     "image": "/images/Bilder Schauspieler/candice.png"
+  },
+  {
+    "name": "Mei",
+    "age": "43",
+    "role": "Große Schwester ",
+    "study": "Philosophy",
+    "tasks": "Schauspiel",
+    "sentence": "Die Gefangene ist verschwunden!",
+    "image": "/images/Bilder Schauspieler/mei.png"
   },
   {
     "name": "Amelie",
