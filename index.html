@@ -71,15 +71,19 @@
     </div>
     <style>
         .trapezoid {
-            border-bottom: 30vh solid white;
-            border-left: calc(50vw - 40px) solid transparent;
-            border-right: calc(50vw - 40px) solid transparent;
-            height: 0;
+            border-bottom: 30vh solid transparent;
+            border-left: calc(calc(55vw - 35px) ) solid black;
+            border-right: calc(calc(55vw - 35px) ) solid black;
+            height: 34vh;
             border-top: 1px solid black;
-            width: 100%;
+            width: 110%;
+            filter: blur(2px);
+            position: absolute;
+            top: -4vh;
+            left:-5vw;
         }
     </style>
-    <div class="w-100 bg-black light-navigation" style="height: 30vh">
+    <div class="w-100 bg-white light-navigation overflow-hidden position-relative" style="height: 30vh">
 
         <div class="trapezoid">
 
