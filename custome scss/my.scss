@@ -105,3 +105,11 @@ body {
   max-width: 90vw;
   max-height: 90vh;
 }
+
+
+.zoomed,.c-img {
+  transition: transform 1s;
+  &:hover,&:active{
+    transform: scale(1.1)
+  }
+}

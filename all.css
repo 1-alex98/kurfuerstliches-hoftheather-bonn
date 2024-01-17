@@ -20196,4 +20196,11 @@ body {
   max-height: 90vh;
 }
 
+.zoomed, .c-img {
+  transition: transform 1s;
+}
+.zoomed:hover, .zoomed:active, .c-img:hover, .c-img:active {
+  transform: scale(1.1);
+}
+
 /*# sourceMappingURL=all.css.map */
