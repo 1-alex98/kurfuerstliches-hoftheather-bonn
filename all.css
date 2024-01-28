@@ -33,6 +33,10 @@
   content: "\f67f";
 }
 
+section {
+  height: 100vh;
+}
+
 .bi-alarm-fill::before {
   content: "\f101";
 }
