@@ -1,0 +1,20 @@
+<div class="card m-2 text-bg-primary p-2 card-contributor mb-5 d-flex flex-column wow bounceInUp" style="min-width: 250px;max-width: min(540px, (100vh / 19) * 9);">
+  <div class="overflow-hidden">
+    <img src="${image}" style="aspect-ratio: 9/16;object-fit: cover;" class="zoomed card-img-top bg-white" alt="bild">
+    <h2 class="image-text text-secondary">${name}</h2>
+  </div>
+  <div class="card-body" style="font-size: 1rem">
+    <div class="d-flex flex-column">
+      <div class="d-flex flex-row justify-content-between flex-wrap">
+        <p class="flex-grow-1 pe-2 ${role-missing} " style="white-space: nowrap;"><i class="bi bi-person-arms-up"></i> ${role} </p>
+        <p ><i class="bi bi-list-task"></i> ${tasks}</p>
+      </div>
+      <div class="d-flex flex-row justify-content-between">
+        <p class="flex-grow-1 pe-2 ${age-missing}" style="white-space: nowrap;"><i class="bi bi-cake2-fill"></i> ${age}</p>
+        <p class="${study-missing}"><i class="bi bi-mortarboard-fill"></i> ${study}</p>
+      </div>
+      <p class="${sentence-missing}"><i class="bi bi-chat-left-quote-fill"></i> ${sentence}</p>
+      ${extra}
+    </div>
+  </div>
+</div>

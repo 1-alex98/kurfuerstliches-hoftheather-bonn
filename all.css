@@ -20207,4 +20207,11 @@ body {
   transform: scale(1.1);
 }
 
+.dropdown-menu, .dropdown-menu:hover {
+  background-color: transparent !important;
+}
+.dropdown-menu li > a, .dropdown-menu:hover li > a {
+  background-color: transparent !important;
+}
+
 /*# sourceMappingURL=all.css.map */

@@ -117,3 +117,10 @@ section {
     transform: scale(1.1)
   }
 }
+
+.dropdown-menu, .dropdown-menu:hover {
+  background-color: transparent!important;
+  li > a{
+    background-color: transparent!important;
+  }
+}

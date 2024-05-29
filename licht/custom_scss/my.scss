@@ -1,0 +1,115 @@
+.light-nav {
+  color: white!important;
+  button {
+    color: white!important;
+  }
+}
+.dark-nav {
+  color: black!important;
+  button {
+    color: black!important;
+  }
+}
+
+.menu-icon, .topBtn {
+  font-size: 2rem;
+}
+.safe-padding {
+  padding: 2.5rem;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 0; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  background: transparent;
+  border: unset;
+}
+
+.topMenu {
+  position: fixed; /* Fixed/sticky position */
+  top: 0; /* Place the button at the bottom of the page */
+  left: 0; /* Place the button 30px from the right */
+  z-index: 999; /* Make sure it does not overlap */
+  background: transparent;
+  border: unset;
+}
+
+.topBtn:hover {
+}
+
+.link-hover-underline:hover {
+  text-decoration: underline!important;
+}
+
+
+.text-light {
+  color: #c8c8c8 !important;
+}
+
+.card-contributor {
+  max-width: 600px;
+}
+
+@include media-breakpoint-up(lg) {
+  .card-contributor {
+    width: 40%;
+    max-width: 600px;
+  }
+}
+
+.image-text {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+.group-img {
+  width: 100%;
+  aspect-ratio: 1.3333;
+  max-width: 1080px;
+  overflow: hidden;
+  position: relative;
+  img {
+    position: absolute;
+    left: -10%;
+    top: -10%;
+    width: 110%;
+    animation: example 50s linear infinite;
+  }
+}
+
+
+@keyframes example {
+  0%   {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(10%, 10%);
+  }
+}
+
+.c-img {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+
+.zoomed,.c-img {
+  transition: transform 1s;
+  &:hover,&:active{
+    transform: scale(1.1)
+  }
+}

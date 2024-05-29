@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Christina",
+    "role": "ASzi",
+    "age": "24",
+    "study": "Politik und Soziologie",
+    "tasks": "Regie, Schauspiel",
+    "sentence": "Die Liebe ist mein einziger Kompass den ich nicht umpolen kann.",
+    "image": "images/Bilder Schauspieler/christina.png"
+  },
+  {
+    "name": "Hannah",
+    "age": "24",
+    "role": "ERu",
+    "study": "Deutsch-italienische Studien",
+    "tasks": "Schauspiel, Regie, Vorstand, Instagram",
+    "sentence": "Sie muss Ihre Heimat retten, so sehr ich meinen Weg gehen muss. Hin zur Sonne. Zum Licht. Zur Wahrheit. Das verstehe ich jetzt.",
+    "image": "images/Bilder Schauspieler/hannah.png"
+  },
+  {
+    "name": "Roberto Bollen<i class=\"bi bi-music-note-beamed\"></i>",
+    "age": "24",
+    "study": "Pfleger",
+    "tasks": "Musik",
+    "sentence": "",
+    "role": "",
+    "image": "images/Bilder Schauspieler/roberto.png",
+    "extra": "<a class=\"link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover\" href=\"https://open.spotify.com/artist/36VjJhmx1T74IVW4HCK8m8?si=PnBN3DS8QWmipz_mHmk84g\"><i class=\"bi bi-spotify\"></i>Roberto's Spotify</a>"
+  },
+  {
+    "name": "Marlon",
+    "role": "Mentor",
+    "age": "23",
+    "study": "Poliorketik (MA)",
+    "tasks": "Schauspiel, Regie, Vorstand",
+    "sentence": "Die Tyrannen unterwarfen die Welt entgegen ihres Willens, raubten ihre Schätze und vergifteten ihre Luft.",
+    "image": "images/Bilder Schauspieler/marlon.png"
+  },
+  {
+    "name": "Felix <i class=\"bi bi-feather\"></i>",
+    "role": "AMer",
+    "age": "25",
+    "study": "Biologie / Biologielaborant",
+    "tasks": "Autor, Regie, Vorstand, Musik, Schauspiel",
+    "sentence": "Aber, AMer und AMoll, das ergibt doch Amor!",
+    "image": "images/Bilder Schauspieler/felix.png"
+  },
+  {
+    "name": "Louis",
+    "role": "AFra",
+    "age": "25",
+    "study": "Informatik",
+    "tasks": "Schauspiel",
+    "sentence": "Weil es die Wahrheit ist und weil sie nie jemand ausspricht.",
+    "image": "images/Bilder Schauspieler/louis.png"
+  },
+  {
+    "name": "Alexander",
+    "role": "Nichte, AStraal",
+    "age": "25",
+    "study": "Computer Science/ Software Developer",
+    "tasks": "Schauspiel, Webseite",
+    "sentence": "Ich weiß nicht mehr weiter.",
+    "image": "images/Bilder Schauspieler/alex.png"
+  },
+  {
+    "name": "Johannes",
+    "role": "ANanZi",
+    "study": "Latein/Geschichte Lehramt",
+    "tasks": "Schauspiel",
+    "sentence": "Du bist wahnsinnig.",
+    "image": "images/Bilder Schauspieler/johannes.png"
+  },
+  {
+    "name": "Jill",
+    "role": "Nichte",
+    "study": " Politik und Medienwissenschaft",
+    "tasks": "Schauspiel",
+    "sentence": "Stehen geblieben!",
+    "image": "images/Bilder Schauspieler/alexandra.png"
+  },
+  {
+    "name": "Roman",
+    "age": "24",
+    "role": "ATiis",
+    "study": " Politik und Medienwissenschaft",
+    "tasks": "Schauspiel, Vorstand (Finanzen)",
+    "sentence": "Es war keine Absicht!",
+    "image": "images/Bilder Schauspieler/roman.png"
+  },
+  {
+    "name": "Candice",
+    "role": "Große Schwester ",
+    "study": "UX Design",
+    "tasks": "Schauspiel, Website",
+    "sentence": "Jeden Tag. Jeden Monat. Jedes Jahr, das wir erleben dürfen verdanken wir dem Gesetz unserer Gemeinschaft.",
+    "image": "images/Bilder Schauspieler/candice.png"
+  },
+  {
+    "name": "Mei",
+    "age": "43",
+    "role": "Große Schwester ",
+    "study": "Philosophy",
+    "tasks": "Schauspiel",
+    "sentence": "Die Gefangene ist verschwunden!",
+    "image": "images/Bilder Schauspieler/mei.png"
+  },
+  {
+    "name": "Amelie",
+    "role": "ARa",
+    "tasks": "Schauspiel, Autorin",
+    "study": "Italienisch und Philosophie",
+    "sentence": "Meinen Sie die neun Höllenkreise, in denen die Menschen Rodinias umherirren?",
+    "image": "images/Bilder Schauspieler/amy.png"
+  },
+  {
+    "name": "Charlotte",
+    "role": "AMoll",
+    "study": "Englisch/ Kunstgeschichte ",
+    "tasks": "Schauspiel, Make-up",
+    "sentence": "Es gibt kein „Wenn“. Ich werde genommen.",
+    "image": "images/Bilder Schauspieler/unknown.png",
+    "extra": "<a class=\"link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover\" href=\"https://open.spotify.com/playlist/35NdjC4Y8UpWrDZsJdRw2Y?si=JSr0ut8WQ8q5zR7VHLp_2A&nd=1&dlsi=ebf28b3288214135\"><i class=\"bi bi-spotify\"></i>Meine Spotify Playlist zu AMoll</a>"
+  },
+  {
+    "name": "Nele",
+    "role": "Große Schwester",
+    "sentence":"",
+    "age": "22",
+    "study": "Wirtschafts- und Medienwissenschaften",
+    "tasks": "Schauspiel",
+    "image": "images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Antonia",
+    "role": "Gaia",
+    "age": "24",
+    "sentence": "Schnell verrinnt der Lauf der Zeit - Zukunft und Vergangenheit - eng verbunden im Moment, sind sie zeitgleich existent",
+    "study": "Jura",
+    "tasks": "Schauspiel",
+    "image": "images/Bilder Schauspieler/antonia2.png"
+  }
+]
