@@ -26,6 +26,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  height: 100vh;
+}
+
 .topBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -111,5 +115,12 @@ body {
   transition: transform 1s;
   &:hover,&:active{
     transform: scale(1.1)
+  }
+}
+
+.dropdown-menu, .dropdown-menu:hover {
+  background-color: transparent!important;
+  li > a{
+    background-color: transparent!important;
   }
 }

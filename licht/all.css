@@ -20124,6 +20124,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  height: 100vh;
+}
+
 .topBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -20201,6 +20205,13 @@ body {
 }
 .zoomed:hover, .zoomed:active, .c-img:hover, .c-img:active {
   transform: scale(1.1);
+}
+
+.dropdown-menu, .dropdown-menu:hover {
+  background-color: transparent !important;
+}
+.dropdown-menu li > a, .dropdown-menu:hover li > a {
+  background-color: transparent !important;
 }
 
 /*# sourceMappingURL=all.css.map */
