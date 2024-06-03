@@ -136,7 +136,7 @@ section {
   scroll-snap-align: start;
 }
 body {
-  //scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
   height: 100vh;
   scroll-behavior: smooth;
 }
