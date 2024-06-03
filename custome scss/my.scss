@@ -124,3 +124,54 @@ section {
     background-color: transparent!important;
   }
 }
+
+section {
+  scroll-snap-align: start;
+}
+
+.scroll-end {
+  scroll-snap-align: end;
+}
+.scroll-start {
+  scroll-snap-align: start;
+}
+body {
+  //scroll-snap-type: y mandatory;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+@include media-breakpoint-down(lg) {
+  .scroll-snap-mobile {
+    scroll-snap-align: start;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .top-section {
+    height: unset;
+  }
+}
+
+blockquote {
+  border:none;
+  margin-bottom:30px;
+  line-height: 1;
+}
+
+blockquote h3 {
+  font-size:3rem;
+}
+
+blockquote h3:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size:5rem;
+  color:#ACE6FF;
+}
+blockquote h3:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size:5rem;
+  color:#ACE6FF;
+
+}

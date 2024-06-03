@@ -28,20 +28,14 @@ function setColourBasedOnBack(element) {
     }
 }
 
-let mybutton;
 let nav;
 function changeColor() {
-    if(!mybutton) {
-        mybutton = document.getElementById("topBtn");
-    }
     if(!nav) {
         nav = document.getElementById("topMenu");
     }
 
     // Get the element behind the nav
-    setColourBasedOnBack(mybutton);
     setColourBasedOnBack(nav);
-    topButtonScroll()
 }
 
 window.onload = async function () {
@@ -50,25 +44,10 @@ window.onload = async function () {
     document.getElementsByTagName('body')[0].innerHTML = await response;
     document.getElementById("content").innerHTML = content;
     changeColor();
+    const main = document.querySelector('body');
+    main.addEventListener('scroll', changeColor);
 }
 
 
 window.onscroll = changeColor
 
-
-// Get the button:
-
-
-function topButtonScroll() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-    } else {
-        mybutton.style.display = "none";
-    }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}

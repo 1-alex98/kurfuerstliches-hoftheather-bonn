@@ -33,10 +33,6 @@
   content: "\f67f";
 }
 
-section {
-  height: 100vh;
-}
-
 .bi-alarm-fill::before {
   content: "\f101";
 }
@@ -20128,6 +20124,10 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  height: 100vh;
+}
+
 .topBtn {
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -20212,6 +20212,57 @@ body {
 }
 .dropdown-menu li > a, .dropdown-menu:hover li > a {
   background-color: transparent !important;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+.scroll-end {
+  scroll-snap-align: end;
+}
+
+.scroll-start {
+  scroll-snap-align: start;
+}
+
+body {
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 991.98px) {
+  .scroll-snap-mobile {
+    scroll-snap-align: start;
+  }
+}
+@media (min-width: 992px) {
+  .top-section {
+    height: unset;
+  }
+}
+blockquote {
+  border: none;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+blockquote h3, blockquote .h3 {
+  font-size: 3rem;
+}
+
+blockquote h3:before, blockquote .h3:before {
+  content: open-quote;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #ACE6FF;
+}
+
+blockquote h3:after, blockquote .h3:after {
+  content: close-quote;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #ACE6FF;
 }
 
 /*# sourceMappingURL=all.css.map */
