@@ -158,20 +158,29 @@ blockquote {
   line-height: 1;
 }
 
+blockquote p {
+  font-size:min(3vw, 6vh);
+}
 blockquote h3 {
-  font-size:3rem;
+  font-size:min(5vw, 8vh);
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 blockquote h3:before {
   content: open-quote;
   font-weight: bold;
-  font-size:5rem;
+  font-size:8vw;
   color:#ACE6FF;
 }
 blockquote h3:after {
   content: close-quote;
   font-weight: bold;
-  font-size:5rem;
+  font-size:8vw;
   color:#ACE6FF;
 
+}
+
+.bg-image{
+  background-color: #353b3e;
 }

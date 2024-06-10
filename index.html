@@ -47,15 +47,15 @@
     </div>
     <section class="d-flex align-items-center flex-column light-navigation bg-black pb-0" style="border-top: 1px solid black;">
 
-        <img width="40px" src="images/home/lightsaber.png">
+        <img style="width: calc(min(4vw, 4vh));" src="images/home/lightsaber.png">
         <style>
             .trapezoid-bg {
                 background: linear-gradient(to bottom, rgba(0,4,255,0.7) 0%, rgba(0,4,255,0.7) 9%, rgba(255,255,255,1) 53%) no-repeat border-box;
             }
             .trapezoid {
                 border-bottom: 50vh solid transparent;
-                border-left: calc(50vw - 20px) solid black;
-                border-right: calc(50vw - 20px) solid black;
+                border-left: calc(50vw - calc(min(2vw, 2vh))) solid black;
+                border-right: calc(50vw - calc(min(2vw, 2vh))) solid black;
                 border-top: 0px solid black;
                 width: 100%;
                 #filter: blur(2px);
@@ -70,35 +70,53 @@
 
             </div>
 
-            <blockquote class="fs-3 text-dark pb-3" style="position: absolute; bottom: 0;text-align: center; width: 100%"><h3>Der Beste Film in dem ich dieses Jahr mitspiele.</h3>~ Der große Thor Baxter</blockquote>
+            <blockquote class="fs-3 text-dark pb-1" style="position: absolute; bottom: 0;text-align: center; width: 100%">
+                <p >~ Der große Thor Baxter</p>
+                <h3 >Der Beste Film in dem ich dieses Jahr mitspiele.</h3>
+            </blockquote>
 
+        </div>
+
+    </section>
+    <section class="safe-padding">
+        <div class="d-flex align-items-center align-content-center flex-lg-row flex-column">
+            <h1 class="text-center w-100">Der Senat</h1>
+            <img src="images/home/senat.png" style="max-height: 90vh; max-width: 90vw">
+        </div>
+
+    </section>
+    <section class="safe-padding light-navigation bg-black">
+        <div class="d-flex align-items-center align-content-center flex-lg-row flex-column text-light">
+            <h1 class="text-center w-100">vs </h1>
+            <h1 class="text-center w-100">Caesar und seine Gefährten</h1>
+            <img src="images/home/caesar.png" style="max-height: 90vh; max-width: 90vw">
         </div>
 
     </section>
 
     <section class="d-flex flex-column align-items-start safe-padding text-dark align-items-center">
         <h2 class="text-center">
-            Tickets
+            Termine
         </h2>
         <div class="pb-0 safe-padding d-flex flex-lg-row flex-column flex-wrap justify-content-center align-items-start flex-grow-1 gap-5" style="min-width: 15rem">
 
-            <div class="d-flex flex-column justify-content-start align-items-center">
-                <p class="mb-1"><i class="bi bi-calendar-event"></i> Di 20.09.2024</p>
-                <button class="btn fs-2 btn-primary me-2" style="font-size:0.875em;" type="button"><i class="bi bi-ticket-perforated"> Tickets nur an der Abendkasse</i></button>
-                <a href="https://www.contra-kreis-theater.de/theater-archiv/hin-zum-licht/" class="text-muted">
-                    <p class="text-muted fs-6">Webseite Contra Kreis Theater</p>
-                </a>
+            <div class="d-flex flex-column justify-content-start align-items-center align-self-center">
+                <h2 class="mb-1 w-100 "><i class="bi bi-calendar-event"></i> Di 20.09.2024</h2>
+                <button class="btn fs-2 btn-primary me-2 w-100" style="font-size:0.875em;" type="button"><i class="bi bi-ticket-perforated"> Eintritt Frei</i></button>
             </div>
-            <div class="d-flex flex-column justify-content-start align-items-center">
-                <p class="mb-1"><i class="bi bi-calendar-event"></i> Mi 21.09.2024</p>
-                <button class="btn fs-2 btn-primary me-2" style="font-size:0.875em;" type="button"><i class="bi bi-ticket-perforated"> Tickets nur an der Abendkasse</i></button>
-                <a href="https://www.contra-kreis-theater.de/theater-archiv/hin-zum-licht/" class="text-muted">
-                    <p class="text-muted fs-6">Webseite Contra Kreis Theater</p>
-                </a>
+            <div class="d-flex flex-column justify-content-start align-items-center align-self-center">
+                <h2 class="mb-1"><i class="bi bi-calendar-event"></i> Mi 21.09.2024</h2>
+                <button class="btn fs-2 btn-primary me-2 w-100" style="font-size:0.875em;" type="button"><i class="bi bi-ticket-perforated"> Eintritt Frei</i></button>
             </div>
+            <div class="d-flex flex-column justify-content-start align-items-center align-self-center">
+                <h2 class="mb-1 text-center">Einlass jeweils 19:30 Uhr</h2>
+                <h2 class="mb-1 text-center">Beginn jeweils 20:00 Uhr</h2>
+
+            </div>
+            <a href="https://www.contra-kreis-theater.de/" class="align-self-center">
+                <button class="btn fs-2 btn-primary me-2" style="font-size:0.875em;" type="button">Webseite Contra Kreis Theater</button>
+            </a>
         </div>
-        <p class="text-muted m-0 p-0">3/5/10€</p>
-        <p class="text-muted m-0 p-0">Studenten Uni Bonn/ermäßigt/sonst</p>
     </section>
     <section class="light-navigation bg-black d-flex justify-content-end w-100 text-light">
         <div class="text-light d-flex flex-column w-100 safe-padding align-items-center">

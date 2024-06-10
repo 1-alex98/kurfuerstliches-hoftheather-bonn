@@ -7,5 +7,14 @@
     "tasks": "Vorstand, Schauspiel",
     "sentence": "Wie lange Harry Einspringen, willst du...",
     "image": "/images/Bilder Schauspieler/felix.png"
+  },
+  {
+    "name": "Johannes",
+    "role": "Caesar/Thor Baxter",
+    "age": "23",
+    "study": "Geschichte",
+    "tasks": "Vorstand, Schauspiel",
+    "sentence": "Ich bin unschuldig, ich bin Thor Baxter.",
+    "image": "/images/Bilder Schauspieler/johannes.png"
   }
 ]
