@@ -16,14 +16,15 @@ async function go () {
         let localTemplate = htmlTemplate;
         for (let variable in actor) {
             if(actor[variable] ==="") {
-                localTemplate = localTemplate.replaceAll(`\${${variable}-missing}`, "d-none")
-                localTemplate = localTemplate.replaceAll(`\${${variable}}`, "")
+                localTemplate = localTemplate.replace(`\${${variable}-missing}`, "d-none")
+                localTemplate = localTemplate.replace(`\${${variable}}`, "")
             }else {
-                localTemplate = localTemplate.replaceAll(`\${${variable}-missing}`, "")
-                localTemplate = localTemplate.replaceAll(`\${${variable}}`, actor[variable])
+                localTemplate = localTemplate.replace(`\${${variable}-missing}`, "")
+                localTemplate = localTemplate.replace(`\${${variable}}`, actor[variable])
             }
         }
-        localTemplate = localTemplate.replaceAll(/[$][{].*[}]/gi, "")
+        localTemplate = localTemplate.replaceAll(/[$][{][^}]*missing[^}]*[}]/gi, "d-none")
+        localTemplate = localTemplate.replaceAll(/[$][{][^}]*[}]/gi, "")
         return localTemplate
     }
 

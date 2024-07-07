@@ -1,20 +1,145 @@
 [
   {
+    "name": "Marlon Zweren",
+    "study": "Geschichte",
+    "tasks": "Vorstand, Author, Regie",
+    "image": "/images/Bilder Schauspieler/marlon.png"
+  },
+  {
+    "name": "Antonia",
+    "study": "Jura",
+    "tasks": "Regie, Vorstand",
+    "image": "/images/Bilder Schauspieler/antonia.png"
+  },
+  {
+    "name": "Alexander",
+    "role": "Robert Devon",
+    "metarole": "Regisseur",
+    "study": "Informatik / Software Entwickler",
+    "tasks": "Webseite, Schauspiel",
+    "sentence": "Pew Pew Pew... Und Caesars Abfangjäger beginnen sich zurück zu ziehen.",
+    "image": "/images/Bilder Schauspieler/alex.png"
+  },
+  {
+    "name": "Johannes",
+    "metarole": "Caesar",
+    "role": "Caesar",
+    "study": "Geschichte",
+    "tasks": "Vorstand, Schauspiel",
+    "sentence": "Ich bin unschuldig, ich bin Thor Baxter.",
+    "image": "/images/Bilder Schauspieler/johannes.png"
+  },
+  {
+    "name": "Jule",
+    "role": "Martin Maigler",
+    "tasks": "Schauspiel",
+    "sentence": "Klasse!",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Helena",
+    "role": "Josephine Toulon",
+    "metarole": "Kleopatra/Calpurnia",
+    "tasks": "Schauspiel",
+    "sudy": "English studies",
+    "sentence": "Du weißt schon, Sachbücher. Das sind die ohne Bilder.",
+    "image": "/images/Bilder Schauspieler/helena.png"
+  },
+  {
     "name": "Felix",
-    "role": "Cicero",
-    "age": "25",
+    "metarole": "Cicero",
     "study": "Biologie / Biologielaborant",
     "tasks": "Vorstand, Schauspiel",
     "sentence": "Wie lange Harry Einspringen, willst du...",
     "image": "/images/Bilder Schauspieler/felix.png"
   },
   {
-    "name": "Johannes",
-    "role": "Caesar/Thor Baxter",
-    "age": "23",
+    "name": "Elli",
+    "role": "Harry Einspringn",
+    "metarole": "Wachmann",
+    "tasks": "Schauspiel",
+    "sentence": "Okay genug, Sie Clown.",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Jill",
+    "role": "Claire Marble",
+    "study": "Politik und Medien",
+    "metarole": "Mark Antonia",
+    "tasks": "Schauspiel, Vorstand",
+    "sentence": "Man kann auch eine Frau sein, ohne mit dem Hauptcharakter zu schlafen!",
+    "image": "/images/Bilder Schauspieler/jill.png"
+  },
+
+  {
+    "name": "Tom",
+    "role": "Tom Schmickler",
+    "metarole": "Pompeius",
+    "tasks": "Schauspiel",
     "study": "Geschichte",
-    "tasks": "Vorstand, Schauspiel",
-    "sentence": "Ich bin unschuldig, ich bin Thor Baxter.",
-    "image": "/images/Bilder Schauspieler/johannes.png"
+    "sentence": "Die Todgeweihten grüßen euch!",
+    "image": "/images/Bilder Schauspieler/tom.png"
+  },
+  {
+    "name": "Marlin",
+    "role": "Fred Olles",
+    "metarole": "Cato",
+    "tasks": "Schauspiel",
+    "study": "Politik und Medien",
+    "sentence": "Egal wie viele Legionen ihr habt, Recht könnt ihr euch damit nicht erkämpfen.",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Alex",
+    "role": "Frank Green",
+    "metarole": "Currio",
+    "tasks": "Schauspiel",
+    "study": "Geschichte",
+    "sentence": "Ihr mögt mich besiegt haben, aber Caesar könnt ihr nie besiegen.",
+    "image": "/images/Bilder Schauspieler/alexk.png"
+  },
+  {
+    "name": "Candice",
+    "role": "Daniela Antoni",
+    "metarole": "Androide",
+    "tasks": "Webseite, Schauspiel",
+    "study": "UI/UX Design",
+    "sentence": "Sie wissen schon: Motion Capture.",
+    "image": "/images/Bilder Schauspieler/candice.png"
+  },
+  {
+    "name": "Mei",
+    "role": "Gerda Eidmar",
+    "metarole": "Brutus",
+    "tasks": "Schauspiel",
+    "sentence": "Er nennt mich jedes mal BruKus.",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Charly",
+    "role": "Mona Möllen",
+    "sudy": "English studies",
+    "metarole": "Inspektora und Hobby-Etymologin",
+    "tasks": "Schauspiel",
+    "sentence": "Ich bin Inspektorin. Das kommt vom lateinischen <q>spectare</q>",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Clara",
+    "role": "Nina Dorf",
+    "study": "Asienwissenschaften/Mongolistik",
+    "metarole": "Hilfsinspektor",
+    "tasks": "Schauspiel",
+    "sentence": "Wissen Sie, Mord an Insekten ist immer noch Mord.",
+    "image": "/images/Bilder Schauspieler/clara.png"
+  },
+  {
+    "name": "Jenny",
+    "role": "Karla Pflaumenzähler",
+    "study": "Jura",
+    "metarole": "Anwalt der Kontinental",
+    "tasks": "Schauspiel",
+    "sentence": "Ich sehe, Ihr Geld reicht nicht mehr, um in Ihrem eigenen Studio ein Büro zu unterhalten.",
+    "image": "/images/Bilder Schauspieler/unknown.png"
   }
 ]
