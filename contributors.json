@@ -1,8 +1,8 @@
 [
   {
-    "name": "Marlon Zweren",
-    "study": "Geschichte",
-    "tasks": "Vorstand, Author, Regie",
+    "name": "Marlon Zewen",
+    "study": "Alte Geschichte, Archäologie, Comparatistik und Kunstgeschichte(aber Kunstgeschichte das ist nicht so wichtig)",
+    "tasks": "Vorstand, Autor, Regie",
     "image": "/images/Bilder Schauspieler/marlon.png"
   },
   {
@@ -10,6 +10,12 @@
     "study": "Jura",
     "tasks": "Regie, Vorstand",
     "image": "/images/Bilder Schauspieler/antonia.png"
+  },
+  {
+    "name": "Roberto <i class=\"bi bi-music-note-beamed\"></i>",
+    "tasks": "Musik",
+    "image": "images/Bilder Schauspieler/roberto.png",
+    "extra": "<a class=\"link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover\" href=\"https://open.spotify.com/artist/36VjJhmx1T74IVW4HCK8m8?si=PnBN3DS8QWmipz_mHmk84g\"><i class=\"bi bi-spotify\"></i>Roberto's Spotify</a>"
   },
   {
     "name": "Alexander",
@@ -31,7 +37,7 @@
   },
   {
     "name": "Jule",
-    "role": "Martin Maigler",
+    "role": "Martina Maigler",
     "tasks": "Schauspiel",
     "sentence": "Klasse!",
     "image": "/images/Bilder Schauspieler/unknown.png"
@@ -72,7 +78,7 @@
   },
 
   {
-    "name": "Tom",
+    "name": "Tommy",
     "role": "Tom Schmickler",
     "metarole": "Pompeius",
     "tasks": "Schauspiel",
@@ -140,6 +146,13 @@
     "metarole": "Anwalt der Kontinental",
     "tasks": "Schauspiel",
     "sentence": "Ich sehe, Ihr Geld reicht nicht mehr, um in Ihrem eigenen Studio ein Büro zu unterhalten.",
+    "image": "/images/Bilder Schauspieler/unknown.png"
+  },
+  {
+    "name": "Kati",
+    "role": "Requisite",
+    "study": "Informatik",
+    "tasks": "Schauspiel, Requisite",
     "image": "/images/Bilder Schauspieler/unknown.png"
   }
 ]
