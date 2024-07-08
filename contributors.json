@@ -30,7 +30,7 @@
     "name": "Johannes",
     "metarole": "Thor Baxter",
     "role": "Caesar",
-    "study": "Geschichte",
+    "study": "Geschichte/Latein",
     "tasks": "Vorstand, Schauspiel",
     "sentence": "Ich bin unschuldig, ich bin Thor Baxter.",
     "image": "/images/Bilder Schauspieler/johannes.png"
@@ -47,7 +47,7 @@
     "role": "Josephine Toulon",
     "metarole": "Kleopatra/Calpurnia",
     "tasks": "Schauspiel",
-    "sudy": "English studies",
+    "study": "English studies",
     "sentence": "Du weißt schon, Sachbücher. Das sind die ohne Bilder.",
     "image": "/images/Bilder Schauspieler/helena.png"
   },
@@ -124,7 +124,7 @@
   {
     "name": "Charly",
     "role": "Mona Möllen",
-    "sudy": "English studies",
+    "study": "English studies",
     "metarole": "Inspektora und Hobby-Etymologin",
     "tasks": "Schauspiel",
     "sentence": "Ich bin Inspektorin. Das kommt vom lateinischen <q>spectare</q>",
