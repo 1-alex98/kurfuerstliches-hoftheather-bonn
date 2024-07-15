@@ -20228,7 +20228,6 @@ section {
 }
 
 body {
-  scroll-snap-type: y proximity;
   height: 100vh;
   scroll-behavior: smooth;
 }
